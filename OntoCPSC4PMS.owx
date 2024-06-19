@@ -1,0 +1,1651 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18">
+    <Prefix name="" IRI="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Abuse_Existing_Functionality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Attack_Pattern"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Attack_Tool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Attacker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Availability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Breaker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Busbar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Class"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Collect_and_Analyze_Information"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Command"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Communication_Equipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Communication_Protocol_Converter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Confidentiality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Connector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Consequence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Controller"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Credential_Access"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_Acquisition_Unit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Defense_Evasion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Defense_Tool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Detection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Digital_Controller"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E-mail"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E_Collection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E_Command_and_Control"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E_Discovery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E_Execution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E_Impact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E_Initial_Access"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E_Lateral_Movement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E_Persistence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E_Privilege_Escalation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Employ_Probabilistic_Techniques"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Engage_in_Deceptive_Interaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enterprise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Equipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Evasion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exfiltration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#File"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#File_Hash"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Group"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HMI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ICS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#I_Collection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#I_Command_and_Control"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#I_Discovery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#I_Execution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#I_Impact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#I_Initial_Access"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#I_Lateral_Movement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#I_Persistence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#I_Privilege_Escalation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Impair_Process_Control"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Indictor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Individual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inhibit_Response_Function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inject_Unexpected_Items"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Insulator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Integrity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Malware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Manipulate_Data_Structures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Manipulate_System_Resources"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Manipulate_Timing_and_State"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mitigation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Network_Traffic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PMS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pitfall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Primary_Equipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Protection_Relay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RTU"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reconnaissance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recoverability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Registry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regulator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Resource_Development"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SCADA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Secondary_Equipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Software"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Solution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Subvert_Access_Control"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Switch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tactic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Technique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Traceability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transformer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#URL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unknown"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User_Behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vulnerability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weakness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#adopt"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#apply"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#attack"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#attain"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#cause"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#control"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#detect"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#exist_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#exploit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#implement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#indicate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#influence"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#mitigate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#patch"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#recommend"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#related_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#target"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#use"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#description"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#name"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A0002-HMI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A0003-PLC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A0004-RTU"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A0008-ApplicationServer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A0010-SafetyController"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A0011-VPNServer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A0014-Routers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CVE-2015-3939"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CVE-2015-3963"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CVE-2015-6485"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CVE-2015-7937"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CVE-2016-8354"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CVE-2017-7931"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CVE-2017-8461"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CVE-2017-8492"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#G0034-SandwormTeam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#M0801"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#M0807"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#M0922"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#M0926"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#M0930"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#M0931"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#M0936"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#M0953"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#M1031"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#M1053"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#S0089-BlackEnergy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#S0607-KillDisk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#T0809"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#T0859"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#T0869"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#T0872"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#T1056.001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#T1071.001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#T1561.002"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Abuse_Existing_Functionality"/>
+        <Class IRI="#Attack_Pattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Attack_Tool"/>
+        <Class IRI="#Tool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Availability"/>
+        <Class IRI="#Consequence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Breaker"/>
+        <Class IRI="#Primary_Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Busbar"/>
+        <Class IRI="#Primary_Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Class"/>
+        <Class IRI="#Attacker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Collect_and_Analyze_Information"/>
+        <Class IRI="#Attack_Pattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Command"/>
+        <Class IRI="#Indictor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Communication_Equipment"/>
+        <Class IRI="#Secondary_Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Communication_Protocol_Converter"/>
+        <Class IRI="#Secondary_Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Confidentiality"/>
+        <Class IRI="#Consequence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Connector"/>
+        <Class IRI="#Primary_Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Controller"/>
+        <Class IRI="#Primary_Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Credential_Access"/>
+        <Class IRI="#Enterprise"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data_Acquisition_Unit"/>
+        <Class IRI="#Secondary_Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Defense_Evasion"/>
+        <Class IRI="#Enterprise"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Defense_Tool"/>
+        <Class IRI="#Tool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Digital_Controller"/>
+        <Class IRI="#Secondary_Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E-mail"/>
+        <Class IRI="#Indictor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E_Collection"/>
+        <Class IRI="#Enterprise"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E_Command_and_Control"/>
+        <Class IRI="#Enterprise"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E_Discovery"/>
+        <Class IRI="#Enterprise"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E_Execution"/>
+        <Class IRI="#Enterprise"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E_Impact"/>
+        <Class IRI="#Enterprise"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E_Initial_Access"/>
+        <Class IRI="#Enterprise"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E_Lateral_Movement"/>
+        <Class IRI="#Enterprise"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E_Persistence"/>
+        <Class IRI="#Enterprise"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E_Privilege_Escalation"/>
+        <Class IRI="#Enterprise"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Employ_Probabilistic_Techniques"/>
+        <Class IRI="#Attack_Pattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Engage_in_Deceptive_Interaction"/>
+        <Class IRI="#Attack_Pattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enterprise"/>
+        <Class IRI="#Tactic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Equipment"/>
+        <Class IRI="#PMS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Evasion"/>
+        <Class IRI="#ICS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exfiltration"/>
+        <Class IRI="#Enterprise"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#File"/>
+        <Class IRI="#Indictor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#File_Hash"/>
+        <Class IRI="#Indictor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Group"/>
+        <Class IRI="#Attacker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HMI"/>
+        <Class IRI="#Secondary_Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ICS"/>
+        <Class IRI="#Tactic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IP"/>
+        <Class IRI="#Indictor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#I_Collection"/>
+        <Class IRI="#ICS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#I_Command_and_Control"/>
+        <Class IRI="#ICS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#I_Discovery"/>
+        <Class IRI="#ICS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#I_Execution"/>
+        <Class IRI="#ICS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#I_Impact"/>
+        <Class IRI="#ICS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#I_Initial_Access"/>
+        <Class IRI="#ICS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#I_Lateral_Movement"/>
+        <Class IRI="#ICS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#I_Persistence"/>
+        <Class IRI="#ICS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#I_Privilege_Escalation"/>
+        <Class IRI="#ICS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Impair_Process_Control"/>
+        <Class IRI="#ICS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Individual"/>
+        <Class IRI="#Attacker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inhibit_Response_Function"/>
+        <Class IRI="#ICS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inject_Unexpected_Items"/>
+        <Class IRI="#Attack_Pattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insulator"/>
+        <Class IRI="#Primary_Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Integrity"/>
+        <Class IRI="#Consequence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malware"/>
+        <Class IRI="#Software"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Manipulate_Data_Structures"/>
+        <Class IRI="#Attack_Pattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Manipulate_System_Resources"/>
+        <Class IRI="#Attack_Pattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Manipulate_Timing_and_State"/>
+        <Class IRI="#Attack_Pattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Network_Traffic"/>
+        <Class IRI="#Indictor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organization"/>
+        <Class IRI="#Attacker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary_Equipment"/>
+        <Class IRI="#Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Protection_Relay"/>
+        <Class IRI="#Secondary_Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RTU"/>
+        <Class IRI="#Secondary_Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reconnaissance"/>
+        <Class IRI="#Enterprise"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recoverability"/>
+        <Class IRI="#Consequence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Registry"/>
+        <Class IRI="#Indictor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regulator"/>
+        <Class IRI="#Primary_Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Resource_Development"/>
+        <Class IRI="#Enterprise"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SCADA"/>
+        <Class IRI="#Secondary_Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Secondary_Equipment"/>
+        <Class IRI="#Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sensor"/>
+        <Class IRI="#Primary_Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Subvert_Access_Control"/>
+        <Class IRI="#Attack_Pattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Switch"/>
+        <Class IRI="#Primary_Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System"/>
+        <Class IRI="#PMS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tool"/>
+        <Class IRI="#Software"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Traceability"/>
+        <Class IRI="#Consequence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transformer"/>
+        <Class IRI="#Primary_Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#URL"/>
+        <Class IRI="#Indictor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unknown"/>
+        <Class IRI="#Attacker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#User_Behavior"/>
+        <Class IRI="#Indictor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vulnerability"/>
+        <Class IRI="#Pitfall"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weakness"/>
+        <Class IRI="#Pitfall"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Abuse_Existing_Functionality"/>
+        <Class IRI="#Collect_and_Analyze_Information"/>
+        <Class IRI="#Employ_Probabilistic_Techniques"/>
+        <Class IRI="#Engage_in_Deceptive_Interaction"/>
+        <Class IRI="#Inject_Unexpected_Items"/>
+        <Class IRI="#Manipulate_Data_Structures"/>
+        <Class IRI="#Manipulate_System_Resources"/>
+        <Class IRI="#Manipulate_Timing_and_State"/>
+        <Class IRI="#Subvert_Access_Control"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Attack_Tool"/>
+        <Class IRI="#Defense_Tool"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Breaker"/>
+        <Class IRI="#Busbar"/>
+        <Class IRI="#Connector"/>
+        <Class IRI="#Controller"/>
+        <Class IRI="#Insulator"/>
+        <Class IRI="#Regulator"/>
+        <Class IRI="#Sensor"/>
+        <Class IRI="#Switch"/>
+        <Class IRI="#Transformer"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Class"/>
+        <Class IRI="#Group"/>
+        <Class IRI="#Individual"/>
+        <Class IRI="#Organization"/>
+        <Class IRI="#Unknown"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Command"/>
+        <Class IRI="#E-mail"/>
+        <Class IRI="#File"/>
+        <Class IRI="#File_Hash"/>
+        <Class IRI="#IP"/>
+        <Class IRI="#Network_Traffic"/>
+        <Class IRI="#Registry"/>
+        <Class IRI="#URL"/>
+        <Class IRI="#User_Behavior"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Communication_Equipment"/>
+        <Class IRI="#Communication_Protocol_Converter"/>
+        <Class IRI="#Data_Acquisition_Unit"/>
+        <Class IRI="#Digital_Controller"/>
+        <Class IRI="#HMI"/>
+        <Class IRI="#Protection_Relay"/>
+        <Class IRI="#RTU"/>
+        <Class IRI="#SCADA"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Credential_Access"/>
+        <Class IRI="#Defense_Evasion"/>
+        <Class IRI="#E_Collection"/>
+        <Class IRI="#E_Command_and_Control"/>
+        <Class IRI="#E_Discovery"/>
+        <Class IRI="#E_Execution"/>
+        <Class IRI="#E_Impact"/>
+        <Class IRI="#E_Initial_Access"/>
+        <Class IRI="#E_Lateral_Movement"/>
+        <Class IRI="#E_Persistence"/>
+        <Class IRI="#E_Privilege_Escalation"/>
+        <Class IRI="#Exfiltration"/>
+        <Class IRI="#Reconnaissance"/>
+        <Class IRI="#Resource_Development"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Equipment"/>
+        <Class IRI="#System"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Evasion"/>
+        <Class IRI="#I_Collection"/>
+        <Class IRI="#I_Command_and_Control"/>
+        <Class IRI="#I_Discovery"/>
+        <Class IRI="#I_Execution"/>
+        <Class IRI="#I_Impact"/>
+        <Class IRI="#I_Initial_Access"/>
+        <Class IRI="#I_Lateral_Movement"/>
+        <Class IRI="#I_Persistence"/>
+        <Class IRI="#I_Privilege_Escalation"/>
+        <Class IRI="#Impair_Process_Control"/>
+        <Class IRI="#Inhibit_Response_Function"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Malware"/>
+        <Class IRI="#Tool"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Vulnerability"/>
+        <Class IRI="#Weakness"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#HMI"/>
+        <NamedIndividual IRI="#A0002-HMI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Digital_Controller"/>
+        <NamedIndividual IRI="#A0003-PLC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RTU"/>
+        <NamedIndividual IRI="#A0004-RTU"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#System"/>
+        <NamedIndividual IRI="#A0008-ApplicationServer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Controller"/>
+        <NamedIndividual IRI="#A0010-SafetyController"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#System"/>
+        <NamedIndividual IRI="#A0011-VPNServer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#System"/>
+        <NamedIndividual IRI="#A0014-Routers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vulnerability"/>
+        <NamedIndividual IRI="#CVE-2015-3939"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vulnerability"/>
+        <NamedIndividual IRI="#CVE-2015-3963"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vulnerability"/>
+        <NamedIndividual IRI="#CVE-2015-6485"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vulnerability"/>
+        <NamedIndividual IRI="#CVE-2015-7937"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vulnerability"/>
+        <NamedIndividual IRI="#CVE-2016-8354"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vulnerability"/>
+        <NamedIndividual IRI="#CVE-2017-7931"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vulnerability"/>
+        <NamedIndividual IRI="#CVE-2017-8461"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vulnerability"/>
+        <NamedIndividual IRI="#CVE-2017-8492"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organization"/>
+        <NamedIndividual IRI="#G0034-SandwormTeam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mitigation"/>
+        <NamedIndividual IRI="#M0801"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mitigation"/>
+        <NamedIndividual IRI="#M0807"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mitigation"/>
+        <NamedIndividual IRI="#M0922"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mitigation"/>
+        <NamedIndividual IRI="#M0926"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mitigation"/>
+        <NamedIndividual IRI="#M0930"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mitigation"/>
+        <NamedIndividual IRI="#M0931"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mitigation"/>
+        <NamedIndividual IRI="#M0936"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mitigation"/>
+        <NamedIndividual IRI="#M0953"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mitigation"/>
+        <NamedIndividual IRI="#M1031"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mitigation"/>
+        <NamedIndividual IRI="#M1053"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Malware"/>
+        <NamedIndividual IRI="#S0089-BlackEnergy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Malware"/>
+        <NamedIndividual IRI="#S0607-KillDisk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Technique"/>
+        <NamedIndividual IRI="#T0809"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Technique"/>
+        <NamedIndividual IRI="#T0859"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Technique"/>
+        <NamedIndividual IRI="#T0869"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Technique"/>
+        <NamedIndividual IRI="#T0872"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Technique"/>
+        <NamedIndividual IRI="#T1056.001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Technique"/>
+        <NamedIndividual IRI="#T1071.001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Technique"/>
+        <NamedIndividual IRI="#T1561.002"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#exist_in"/>
+        <NamedIndividual IRI="#A0008-ApplicationServer"/>
+        <NamedIndividual IRI="#A0003-PLC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#exist_in"/>
+        <NamedIndividual IRI="#CVE-2015-3939"/>
+        <NamedIndividual IRI="#A0004-RTU"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#exist_in"/>
+        <NamedIndividual IRI="#CVE-2015-3963"/>
+        <NamedIndividual IRI="#A0004-RTU"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#exist_in"/>
+        <NamedIndividual IRI="#CVE-2015-6485"/>
+        <NamedIndividual IRI="#A0004-RTU"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#exist_in"/>
+        <NamedIndividual IRI="#CVE-2015-7937"/>
+        <NamedIndividual IRI="#A0003-PLC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#exist_in"/>
+        <NamedIndividual IRI="#CVE-2016-8354"/>
+        <NamedIndividual IRI="#A0003-PLC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#exist_in"/>
+        <NamedIndividual IRI="#CVE-2017-7931"/>
+        <NamedIndividual IRI="#A0008-ApplicationServer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#exist_in"/>
+        <NamedIndividual IRI="#CVE-2017-8461"/>
+        <NamedIndividual IRI="#A0008-ApplicationServer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#exist_in"/>
+        <NamedIndividual IRI="#CVE-2017-8492"/>
+        <NamedIndividual IRI="#A0008-ApplicationServer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#attack"/>
+        <NamedIndividual IRI="#G0034-SandwormTeam"/>
+        <NamedIndividual IRI="#A0002-HMI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#attack"/>
+        <NamedIndividual IRI="#G0034-SandwormTeam"/>
+        <NamedIndividual IRI="#A0003-PLC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#attack"/>
+        <NamedIndividual IRI="#G0034-SandwormTeam"/>
+        <NamedIndividual IRI="#A0004-RTU"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#attack"/>
+        <NamedIndividual IRI="#G0034-SandwormTeam"/>
+        <NamedIndividual IRI="#A0008-ApplicationServer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#attack"/>
+        <NamedIndividual IRI="#G0034-SandwormTeam"/>
+        <NamedIndividual IRI="#A0011-VPNServer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#attack"/>
+        <NamedIndividual IRI="#G0034-SandwormTeam"/>
+        <NamedIndividual IRI="#A0014-Routers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#use"/>
+        <NamedIndividual IRI="#G0034-SandwormTeam"/>
+        <NamedIndividual IRI="#S0089-BlackEnergy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#use"/>
+        <NamedIndividual IRI="#G0034-SandwormTeam"/>
+        <NamedIndividual IRI="#S0607-KillDisk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mitigate"/>
+        <NamedIndividual IRI="#M0801"/>
+        <NamedIndividual IRI="#T0859"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mitigate"/>
+        <NamedIndividual IRI="#M0807"/>
+        <NamedIndividual IRI="#T0869"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mitigate"/>
+        <NamedIndividual IRI="#M0922"/>
+        <NamedIndividual IRI="#T0809"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mitigate"/>
+        <NamedIndividual IRI="#M0922"/>
+        <NamedIndividual IRI="#T0872"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#recommend"/>
+        <NamedIndividual IRI="#M0922"/>
+        <NamedIndividual IRI="#A0003-PLC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#recommend"/>
+        <NamedIndividual IRI="#M0922"/>
+        <NamedIndividual IRI="#A0004-RTU"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mitigate"/>
+        <NamedIndividual IRI="#M0926"/>
+        <NamedIndividual IRI="#T0809"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#recommend"/>
+        <NamedIndividual IRI="#M0926"/>
+        <NamedIndividual IRI="#A0004-RTU"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mitigate"/>
+        <NamedIndividual IRI="#M0930"/>
+        <NamedIndividual IRI="#T0869"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#recommend"/>
+        <NamedIndividual IRI="#M0930"/>
+        <NamedIndividual IRI="#A0008-ApplicationServer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mitigate"/>
+        <NamedIndividual IRI="#M0931"/>
+        <NamedIndividual IRI="#T0869"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mitigate"/>
+        <NamedIndividual IRI="#M0936"/>
+        <NamedIndividual IRI="#T0859"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mitigate"/>
+        <NamedIndividual IRI="#M0953"/>
+        <NamedIndividual IRI="#T0809"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#recommend"/>
+        <NamedIndividual IRI="#M0953"/>
+        <NamedIndividual IRI="#A0004-RTU"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mitigate"/>
+        <NamedIndividual IRI="#M1031"/>
+        <NamedIndividual IRI="#T1071.001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#recommend"/>
+        <NamedIndividual IRI="#M1031"/>
+        <NamedIndividual IRI="#A0008-ApplicationServer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mitigate"/>
+        <NamedIndividual IRI="#M1053"/>
+        <NamedIndividual IRI="#T1561.002"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#implement"/>
+        <NamedIndividual IRI="#S0089-BlackEnergy"/>
+        <NamedIndividual IRI="#T0859"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#implement"/>
+        <NamedIndividual IRI="#S0089-BlackEnergy"/>
+        <NamedIndividual IRI="#T0869"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#implement"/>
+        <NamedIndividual IRI="#S0089-BlackEnergy"/>
+        <NamedIndividual IRI="#T1056.001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#implement"/>
+        <NamedIndividual IRI="#S0089-BlackEnergy"/>
+        <NamedIndividual IRI="#T1071.001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#implement"/>
+        <NamedIndividual IRI="#S0607-KillDisk"/>
+        <NamedIndividual IRI="#T0809"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#implement"/>
+        <NamedIndividual IRI="#S0607-KillDisk"/>
+        <NamedIndividual IRI="#T0872"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#implement"/>
+        <NamedIndividual IRI="#S0607-KillDisk"/>
+        <NamedIndividual IRI="#T1056.001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#implement"/>
+        <NamedIndividual IRI="#S0607-KillDisk"/>
+        <NamedIndividual IRI="#T1561.002"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#exploit"/>
+        <NamedIndividual IRI="#T0809"/>
+        <NamedIndividual IRI="#CVE-2015-3939"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#exploit"/>
+        <NamedIndividual IRI="#T0809"/>
+        <NamedIndividual IRI="#CVE-2015-3963"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#exploit"/>
+        <NamedIndividual IRI="#T0809"/>
+        <NamedIndividual IRI="#CVE-2015-6485"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#target"/>
+        <NamedIndividual IRI="#T0809"/>
+        <NamedIndividual IRI="#A0011-VPNServer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#target"/>
+        <NamedIndividual IRI="#T0809"/>
+        <NamedIndividual IRI="#A0014-Routers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#target"/>
+        <NamedIndividual IRI="#T0859"/>
+        <NamedIndividual IRI="#A0002-HMI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#exploit"/>
+        <NamedIndividual IRI="#T0869"/>
+        <NamedIndividual IRI="#CVE-2017-8461"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#exploit"/>
+        <NamedIndividual IRI="#T0869"/>
+        <NamedIndividual IRI="#CVE-2017-8492"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#exploit"/>
+        <NamedIndividual IRI="#T0872"/>
+        <NamedIndividual IRI="#CVE-2015-7937"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#exploit"/>
+        <NamedIndividual IRI="#T0872"/>
+        <NamedIndividual IRI="#CVE-2016-8354"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#target"/>
+        <NamedIndividual IRI="#T0872"/>
+        <NamedIndividual IRI="#A0002-HMI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#exploit"/>
+        <NamedIndividual IRI="#T1071.001"/>
+        <NamedIndividual IRI="#CVE-2017-7931"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#exploit"/>
+        <NamedIndividual IRI="#T1071.001"/>
+        <NamedIndividual IRI="#CVE-2017-8461"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#exploit"/>
+        <NamedIndividual IRI="#T1071.001"/>
+        <NamedIndividual IRI="#CVE-2017-8492"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#M0801"/>
+        <Literal>Authenticate all access to field controllers before authorizing access to, or modification of, a device&apos;s state, logic, or programs. Centralized authentication techniques can help manage the large number of field controller accounts needed across the ICS.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#M0801"/>
+        <Literal>Access Management</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#M0807"/>
+        <Literal>Network allowlists can be implemented through either host-based files or system host files to specify what external connections (e.g., IP address, MAC address, port, protocol) can be made from a device. Allowlist techniques that operate at the application layer (e.g., DNP3, Modbus, HTTP) are addressed in the Filter Network Traffic mitigation.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#M0807"/>
+        <Literal>Network Allowlists</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#M0922"/>
+        <Literal>Protect files stored locally with proper permissions to limit opportunities for adversaries to remove indicators of their activity on the system.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#M0922"/>
+        <Literal>Restrict File and Directory Permissions</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#M0930"/>
+        <Literal>Ensure proper network segmentation between higher level corporate resources and the control process environment.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#M0930"/>
+        <Literal>Network Segmentation</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#M0931"/>
+        <Literal>Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the network level.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#M0931"/>
+        <Literal>Network Intrusion Prevention</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#M0936"/>
+        <Literal>Configure features related to account use like login attempt lockouts, specific login times, and password strength requirements as examples. Consider these features as they relate to assets which may impact safety and availability. [8]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#M0936"/>
+        <Literal>Account Use Policies</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#M1031"/>
+        <Literal>Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the network level.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#M1031"/>
+        <Literal>Network Intrusion Prevention</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#M1053"/>
+        <Literal>Consider implementing IT disaster recovery plans that contain procedures for taking regular data backups that can be used to restore organizational data.[28] Ensure backups are stored off system and is protected from common methods adversaries may use to gain access and destroy the backups to prevent recovery.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#M1053"/>
+        <Literal>Data Backup</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#T0869"/>
+        <Literal>Standard Application Layer Protocol</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#T0872"/>
+        <Literal>Indicator Removal on Host</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#T1056.001"/>
+        <Literal>Input Capture: Keylogging</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#T1071.001"/>
+        <Literal>Application Layer Protocol: Web Protocols</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#adopt"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#apply"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#attack"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#attain"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#cause"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#control"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#detect"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#exist_in"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#exploit"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#implement"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#indicate"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#influence"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#mitigate"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#patch"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#recommend"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#related_to"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#use"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#attack"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#adopt"/>
+        <Class IRI="#Attacker"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#apply"/>
+        <Class IRI="#Attack_Pattern"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#attack"/>
+        <Class IRI="#Attacker"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#attain"/>
+        <Class IRI="#Attack_Pattern"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#cause"/>
+        <Class IRI="#Technique"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#control"/>
+        <Class IRI="#System"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#detect"/>
+        <Class IRI="#Detection"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#exist_in"/>
+        <Class IRI="#Pitfall"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#exploit"/>
+        <Class IRI="#Technique"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#implement"/>
+        <Class IRI="#Software"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#indicate"/>
+        <Class IRI="#Indictor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#influence"/>
+        <Class IRI="#Consequence"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#mitigate"/>
+        <Class IRI="#Mitigation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#patch"/>
+        <Class IRI="#Solution"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#recommend"/>
+        <Class IRI="#Mitigation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#related_to"/>
+        <Class IRI="#Weakness"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#target"/>
+        <Class IRI="#Technique"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#use"/>
+        <Class IRI="#Attacker"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#adopt"/>
+        <Class IRI="#Attack_Pattern"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#apply"/>
+        <Class IRI="#Technique"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#attack"/>
+        <Class IRI="#Equipment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#attain"/>
+        <Class IRI="#Tactic"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#cause"/>
+        <Class IRI="#Consequence"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#control"/>
+        <Class IRI="#Equipment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#detect"/>
+        <Class IRI="#Technique"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#exist_in"/>
+        <Class IRI="#PMS"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#exploit"/>
+        <Class IRI="#Pitfall"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#implement"/>
+        <Class IRI="#Technique"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#indicate"/>
+        <Class IRI="#Attack_Pattern"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#influence"/>
+        <Class IRI="#PMS"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#mitigate"/>
+        <Class IRI="#Technique"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#patch"/>
+        <Class IRI="#Weakness"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#recommend"/>
+        <Class IRI="#PMS"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#related_to"/>
+        <Class IRI="#Vulnerability"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#target"/>
+        <Class IRI="#PMS"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#use"/>
+        <Class IRI="#Software"/>
+    </ObjectPropertyRange>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#mitigate"/>
+            <ObjectProperty IRI="#exploit"/>
+            <ObjectProperty IRI="#exist_in"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#recommend"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#use"/>
+            <ObjectProperty IRI="#implement"/>
+            <ObjectProperty IRI="#exploit"/>
+            <ObjectProperty IRI="#exist_in"/>
+            <ObjectProperty IRI="#control"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#attack"/>
+    </SubObjectPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
