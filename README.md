@@ -25,4 +25,4 @@ Here are three types of files:
 
 1) OWX file: It is an OWL format file exported by Protege, usually based on XML format, supports complex relationships and rules, and is used to describe semantic networks and ontologies. It defines the categories (classes) of data, the relationships (attributes) between them, and the individuals (instances) that can be used in these categories and attributes.
 2) RDF file: It represents data based on the triple model (subject-predicate-object).
-3) TXT file: It records the definition, comments or other related explanatory text of terms such as category attributes.
+3) docx file: It records the definition, comments or other related explanatory text of terms such as category attributes.
