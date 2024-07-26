@@ -23,6 +23,6 @@ The ontology includes the following classes and subclasses:
 
 Here are three types of files:
 
-1) OWL file: OWL files are usually based on XML format, supporting complex relationships and rules for describing semantic networks and ontologies. They define data categories (classes), the relationships between them (properties), and the individuals (instances) that can be used within these categories and properties.
-2) RDF file: Based on the triple model (subject-predicate-object) to represent data.
-3) TXT file: Records the definitions, annotations, or other related explanatory text for classes, properties, and other terms.
+1) OWX file: It is an OWL format file exported by Protege, usually based on XML format, supports complex relationships and rules, and is used to describe semantic networks and ontologies. It defines the categories (classes) of data, the relationships (attributes) between them, and the individuals (instances) that can be used in these categories and attributes.
+2) RDF file: It represents data based on the triple model (subject-predicate-object).
+3) TXT file: It records the definition, comments or other related explanatory text of terms such as category attributes.
