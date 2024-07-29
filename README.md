@@ -1,5 +1,5 @@
-# OntoCPSC4PMS
-OntoCPSC4PMS is an ontology framework for risk perception and defense control of cyber-physical coordinated threats in power monitoring systems. OntoCPSC4PMS not only references mainstream attack databases like MITRE's CAPEC, NVD, and ATT&CK, promoting the fusion analysis of multi-source heterogeneous cybersecurity data, but also deeply correlates critical information such as physical assets, network systems, vulnerabilities, security mechanisms, and attack patterns specific to power monitoring systems. This enables tracking and defense against cyber-physical coordinated attacks.
+# OntoCPS4PMS
+OntoCPS4PMS is an ontology framework for risk perception and defense control of cyber-physical coordinated threats in power monitoring systems. OntoCPS4PMS not only references mainstream attack databases like MITRE's CAPEC, NVD, and ATT&CK, promoting the fusion analysis of multi-source heterogeneous cybersecurity data, but also deeply correlates critical information such as physical assets, network systems, vulnerabilities, security mechanisms, and attack patterns specific to power monitoring systems. This enables tracking and defense against cyber-physical coordinated attacks.
 
 The ontology includes the following classes and subclasses:
 1) Attacker (e.g. Black hat, attack host )
