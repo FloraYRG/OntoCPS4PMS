@@ -1,0 +1,1471 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18"
+     xml:base="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-18="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#adopt -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#adopt">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Attacker"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Attack_Pattern"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#apply -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#apply">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Attack_Pattern"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Technique"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#attack -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#attack">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Attacker"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Equipment"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#use"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#implement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#exploit"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#exist_in"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#control"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#attain -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#attain">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Attack_Pattern"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Tactic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#cause -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#cause">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Technique"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Consequence"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#control -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#control">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#System"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Equipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#detect -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#detect">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Detection"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Technique"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#exist_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#exist_in">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Pitfall"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#PMS"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#exploit -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#exploit">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Technique"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Pitfall"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#implement -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#implement">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Software"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Technique"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#indicate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#indicate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Indictor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Attack_Pattern"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#influence -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#influence">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Consequence"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#PMS"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#mitigate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#mitigate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Mitigation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Technique"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#patch -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#patch">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Solution"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Weakness"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#recommend -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#recommend">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Mitigation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#PMS"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#mitigate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#exploit"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#exist_in"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#related_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#related_to">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Weakness"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Vulnerability"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#target -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#target">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Technique"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#PMS"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#use -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#use">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Attacker"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Software"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#description -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#description"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#name"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Abuse_Existing_Functionality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Abuse_Existing_Functionality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Attack_Pattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Attack_Pattern -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Attack_Pattern"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Attack_Tool -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Attack_Tool">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Tool"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Defense_Tool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Attacker -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Attacker"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Availability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Availability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Consequence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Breaker -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Breaker">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Primary_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Busbar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Busbar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Primary_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Class -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Class">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Attacker"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Collect_and_Analyze_Information -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Collect_and_Analyze_Information">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Attack_Pattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Command -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Command">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Indictor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Communication_Equipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Communication_Equipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Secondary_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Communication_Protocol_Converter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Communication_Protocol_Converter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Secondary_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Confidentiality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Confidentiality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Consequence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Connector -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Connector">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Primary_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Consequence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Consequence"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Controller -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Controller">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Primary_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Credential_Access -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Credential_Access">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Enterprise"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Data_Acquisition_Unit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Data_Acquisition_Unit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Secondary_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Defense_Evasion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Defense_Evasion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Enterprise"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Defense_Tool -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Defense_Tool">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Tool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Detection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Detection"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Digital_Controller -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Digital_Controller">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Secondary_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#E-mail -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#E-mail">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Indictor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#E_Collection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#E_Collection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Enterprise"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#E_Command_and_Control -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#E_Command_and_Control">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Enterprise"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#E_Discovery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#E_Discovery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Enterprise"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#E_Execution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#E_Execution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Enterprise"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#E_Impact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#E_Impact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Enterprise"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#E_Initial_Access -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#E_Initial_Access">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Enterprise"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#E_Lateral_Movement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#E_Lateral_Movement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Enterprise"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#E_Persistence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#E_Persistence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Enterprise"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#E_Privilege_Escalation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#E_Privilege_Escalation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Enterprise"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Employ_Probabilistic_Techniques -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Employ_Probabilistic_Techniques">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Attack_Pattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Engage_in_Deceptive_Interaction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Engage_in_Deceptive_Interaction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Attack_Pattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Enterprise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Enterprise">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Tactic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Equipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Equipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#PMS"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Evasion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Evasion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#ICS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Exfiltration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Exfiltration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Enterprise"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#File -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#File">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Indictor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#File_Hash -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#File_Hash">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Indictor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Group -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Group">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Attacker"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#HMI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#HMI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Secondary_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#ICS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#ICS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Tactic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#IP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#IP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Indictor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#I_Collection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#I_Collection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#ICS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#I_Command_and_Control -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#I_Command_and_Control">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#ICS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#I_Discovery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#I_Discovery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#ICS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#I_Execution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#I_Execution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#ICS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#I_Impact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#I_Impact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#ICS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#I_Initial_Access -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#I_Initial_Access">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#ICS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#I_Lateral_Movement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#I_Lateral_Movement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#ICS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#I_Persistence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#I_Persistence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#ICS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#I_Privilege_Escalation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#I_Privilege_Escalation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#ICS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Impair_Process_Control -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Impair_Process_Control">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#ICS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Indictor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Indictor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Individual -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Individual">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Attacker"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Inhibit_Response_Function -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Inhibit_Response_Function">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#ICS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Inject_Unexpected_Items -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Inject_Unexpected_Items">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Attack_Pattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Insulator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Insulator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Primary_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Integrity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Integrity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Consequence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Malware -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Malware">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Software"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Tool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Manipulate_Data_Structures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Manipulate_Data_Structures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Attack_Pattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Manipulate_System_Resources -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Manipulate_System_Resources">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Attack_Pattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Manipulate_Timing_and_State -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Manipulate_Timing_and_State">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Attack_Pattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Mitigation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Mitigation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Network_Traffic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Network_Traffic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Indictor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Organization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Organization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Attacker"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#PMS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#PMS"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Pitfall -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Pitfall"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Primary_Equipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Primary_Equipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Protection_Relay -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Protection_Relay">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Secondary_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#RTU -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#RTU">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Secondary_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Reconnaissance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Reconnaissance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Enterprise"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Recoverability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Recoverability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Consequence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Registry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Registry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Indictor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Regulator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Regulator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Primary_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Resource_Development -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Resource_Development">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Enterprise"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#SCADA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#SCADA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Secondary_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Secondary_Equipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Secondary_Equipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Sensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Sensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Primary_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Software -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Software"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Solution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Solution"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Subvert_Access_Control -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Subvert_Access_Control">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Attack_Pattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Switch -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Switch">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Primary_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#System">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#PMS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Tactic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Tactic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Technique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Technique"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Tool -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Tool">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Software"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Traceability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Traceability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Consequence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Transformer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Transformer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Primary_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#URL -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#URL">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Indictor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Unknown -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Unknown">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Attacker"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#User_Behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#User_Behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Indictor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Vulnerability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Vulnerability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Pitfall"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Weakness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Weakness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Weakness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Pitfall"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0002-HMI -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0002-HMI">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#HMI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0003-PLC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0003-PLC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Digital_Controller"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0004-RTU -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0004-RTU">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#RTU"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0008-ApplicationServer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0008-ApplicationServer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#System"/>
+        <untitled-ontology-18:exist_in rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0003-PLC"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0010-SafetyController -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0010-SafetyController">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Controller"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0011-VPNServer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0011-VPNServer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#System"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0014-Routers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0014-Routers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#System"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#CVE-2015-3939 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#CVE-2015-3939">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Vulnerability"/>
+        <untitled-ontology-18:exist_in rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0004-RTU"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#CVE-2015-3963 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#CVE-2015-3963">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Vulnerability"/>
+        <untitled-ontology-18:exist_in rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0004-RTU"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#CVE-2015-6485 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#CVE-2015-6485">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Vulnerability"/>
+        <untitled-ontology-18:exist_in rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0004-RTU"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#CVE-2015-7937 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#CVE-2015-7937">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Vulnerability"/>
+        <untitled-ontology-18:exist_in rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0003-PLC"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#CVE-2016-8354 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#CVE-2016-8354">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Vulnerability"/>
+        <untitled-ontology-18:exist_in rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0003-PLC"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#CVE-2017-7931 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#CVE-2017-7931">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Vulnerability"/>
+        <untitled-ontology-18:exist_in rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0008-ApplicationServer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#CVE-2017-8461 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#CVE-2017-8461">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Vulnerability"/>
+        <untitled-ontology-18:exist_in rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0008-ApplicationServer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#CVE-2017-8492 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#CVE-2017-8492">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Vulnerability"/>
+        <untitled-ontology-18:exist_in rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0008-ApplicationServer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#G0034-SandwormTeam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#G0034-SandwormTeam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Organization"/>
+        <untitled-ontology-18:attack rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0002-HMI"/>
+        <untitled-ontology-18:attack rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0003-PLC"/>
+        <untitled-ontology-18:attack rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0004-RTU"/>
+        <untitled-ontology-18:attack rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0008-ApplicationServer"/>
+        <untitled-ontology-18:attack rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0011-VPNServer"/>
+        <untitled-ontology-18:attack rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0014-Routers"/>
+        <untitled-ontology-18:use rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#S0089-BlackEnergy"/>
+        <untitled-ontology-18:use rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#S0607-KillDisk"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#M0801 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#M0801">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Mitigation"/>
+        <untitled-ontology-18:mitigate rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#T0859"/>
+        <untitled-ontology-18:description>Authenticate all access to field controllers before authorizing access to, or modification of, a device&apos;s state, logic, or programs. Centralized authentication techniques can help manage the large number of field controller accounts needed across the ICS.</untitled-ontology-18:description>
+        <untitled-ontology-18:name>Access Management</untitled-ontology-18:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#M0807 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#M0807">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Mitigation"/>
+        <untitled-ontology-18:mitigate rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#T0869"/>
+        <untitled-ontology-18:description>Network allowlists can be implemented through either host-based files or system host files to specify what external connections (e.g., IP address, MAC address, port, protocol) can be made from a device. Allowlist techniques that operate at the application layer (e.g., DNP3, Modbus, HTTP) are addressed in the Filter Network Traffic mitigation.</untitled-ontology-18:description>
+        <untitled-ontology-18:name>Network Allowlists</untitled-ontology-18:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#M0922 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#M0922">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Mitigation"/>
+        <untitled-ontology-18:mitigate rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#T0809"/>
+        <untitled-ontology-18:mitigate rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#T0872"/>
+        <untitled-ontology-18:recommend rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0003-PLC"/>
+        <untitled-ontology-18:recommend rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0004-RTU"/>
+        <untitled-ontology-18:description>Protect files stored locally with proper permissions to limit opportunities for adversaries to remove indicators of their activity on the system.</untitled-ontology-18:description>
+        <untitled-ontology-18:name>Restrict File and Directory Permissions</untitled-ontology-18:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#M0926 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#M0926">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Mitigation"/>
+        <untitled-ontology-18:mitigate rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#T0809"/>
+        <untitled-ontology-18:recommend rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0004-RTU"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#M0930 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#M0930">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Mitigation"/>
+        <untitled-ontology-18:mitigate rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#T0869"/>
+        <untitled-ontology-18:recommend rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0008-ApplicationServer"/>
+        <untitled-ontology-18:description>Ensure proper network segmentation between higher level corporate resources and the control process environment.</untitled-ontology-18:description>
+        <untitled-ontology-18:name>Network Segmentation</untitled-ontology-18:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#M0931 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#M0931">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Mitigation"/>
+        <untitled-ontology-18:mitigate rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#T0869"/>
+        <untitled-ontology-18:description>Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the network level.</untitled-ontology-18:description>
+        <untitled-ontology-18:name>Network Intrusion Prevention</untitled-ontology-18:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#M0936 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#M0936">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Mitigation"/>
+        <untitled-ontology-18:mitigate rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#T0859"/>
+        <untitled-ontology-18:description>Configure features related to account use like login attempt lockouts, specific login times, and password strength requirements as examples. Consider these features as they relate to assets which may impact safety and availability. [8]</untitled-ontology-18:description>
+        <untitled-ontology-18:name>Account Use Policies</untitled-ontology-18:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#M0953 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#M0953">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Mitigation"/>
+        <untitled-ontology-18:mitigate rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#T0809"/>
+        <untitled-ontology-18:recommend rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0004-RTU"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#M1031 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#M1031">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Mitigation"/>
+        <untitled-ontology-18:mitigate rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#T1071.001"/>
+        <untitled-ontology-18:recommend rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0008-ApplicationServer"/>
+        <untitled-ontology-18:description>Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the network level.</untitled-ontology-18:description>
+        <untitled-ontology-18:name>Network Intrusion Prevention</untitled-ontology-18:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#M1053 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#M1053">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Mitigation"/>
+        <untitled-ontology-18:mitigate rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#T1561.002"/>
+        <untitled-ontology-18:description>Consider implementing IT disaster recovery plans that contain procedures for taking regular data backups that can be used to restore organizational data.[28] Ensure backups are stored off system and is protected from common methods adversaries may use to gain access and destroy the backups to prevent recovery.</untitled-ontology-18:description>
+        <untitled-ontology-18:name>Data Backup</untitled-ontology-18:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#S0089-BlackEnergy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#S0089-BlackEnergy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Malware"/>
+        <untitled-ontology-18:implement rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#T0859"/>
+        <untitled-ontology-18:implement rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#T0869"/>
+        <untitled-ontology-18:implement rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#T1056.001"/>
+        <untitled-ontology-18:implement rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#T1071.001"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#S0607-KillDisk -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#S0607-KillDisk">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Malware"/>
+        <untitled-ontology-18:implement rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#T0809"/>
+        <untitled-ontology-18:implement rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#T0872"/>
+        <untitled-ontology-18:implement rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#T1056.001"/>
+        <untitled-ontology-18:implement rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#T1561.002"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#T0809 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#T0809">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Technique"/>
+        <untitled-ontology-18:exploit rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#CVE-2015-3939"/>
+        <untitled-ontology-18:exploit rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#CVE-2015-3963"/>
+        <untitled-ontology-18:exploit rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#CVE-2015-6485"/>
+        <untitled-ontology-18:target rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0011-VPNServer"/>
+        <untitled-ontology-18:target rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0014-Routers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#T0859 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#T0859">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Technique"/>
+        <untitled-ontology-18:target rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0002-HMI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#T0869 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#T0869">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Technique"/>
+        <untitled-ontology-18:exploit rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#CVE-2017-8461"/>
+        <untitled-ontology-18:exploit rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#CVE-2017-8492"/>
+        <untitled-ontology-18:name>Standard Application Layer Protocol</untitled-ontology-18:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#T0872 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#T0872">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Technique"/>
+        <untitled-ontology-18:exploit rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#CVE-2015-7937"/>
+        <untitled-ontology-18:exploit rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#CVE-2016-8354"/>
+        <untitled-ontology-18:target rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#A0002-HMI"/>
+        <untitled-ontology-18:name>Indicator Removal on Host</untitled-ontology-18:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#T1056.001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#T1056.001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Technique"/>
+        <untitled-ontology-18:name>Input Capture: Keylogging</untitled-ontology-18:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#T1071.001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#T1071.001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Technique"/>
+        <untitled-ontology-18:exploit rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#CVE-2017-7931"/>
+        <untitled-ontology-18:exploit rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#CVE-2017-8461"/>
+        <untitled-ontology-18:exploit rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#CVE-2017-8492"/>
+        <untitled-ontology-18:name>Application Layer Protocol: Web Protocols</untitled-ontology-18:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#T1561.002 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#T1561.002">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Technique"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Abuse_Existing_Functionality"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Collect_and_Analyze_Information"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Employ_Probabilistic_Techniques"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Engage_in_Deceptive_Interaction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Inject_Unexpected_Items"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Manipulate_Data_Structures"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Manipulate_System_Resources"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Manipulate_Timing_and_State"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Subvert_Access_Control"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Breaker"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Busbar"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Connector"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Controller"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Insulator"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Regulator"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Sensor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Switch"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Transformer"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Class"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Group"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Individual"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Organization"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Unknown"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Command"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#E-mail"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#File"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#File_Hash"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#IP"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Network_Traffic"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Registry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#URL"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#User_Behavior"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Communication_Equipment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Communication_Protocol_Converter"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Data_Acquisition_Unit"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Digital_Controller"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#HMI"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Protection_Relay"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#RTU"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#SCADA"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Credential_Access"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Defense_Evasion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#E_Collection"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#E_Command_and_Control"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#E_Discovery"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#E_Execution"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#E_Impact"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#E_Initial_Access"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#E_Lateral_Movement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#E_Persistence"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#E_Privilege_Escalation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Exfiltration"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Reconnaissance"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Resource_Development"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Evasion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#I_Collection"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#I_Command_and_Control"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#I_Discovery"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#I_Execution"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#I_Impact"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#I_Initial_Access"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#I_Lateral_Movement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#I_Persistence"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#I_Privilege_Escalation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Impair_Process_Control"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15160/ontologies/2024/0/untitled-ontology-18#Inhibit_Response_Function"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
